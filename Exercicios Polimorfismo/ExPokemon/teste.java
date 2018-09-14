@@ -1,7 +1,8 @@
 package ExPokemon;
 
-public class teste {
+import java.util.Scanner;
 
+public class teste {
 	public static void main(String[] args) {
 		Terra p1 = new Terra("Lucas");
 		Agua p2 = new Agua("Pika");
@@ -10,6 +11,7 @@ public class teste {
 		p1.attack(p2);
 		
 		System.out.println(p1.getNivelDeVida());
+		
 	}
 
 }
